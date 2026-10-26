@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "com.test-well/testwell",
+  "description": "Cash-pay lab tests: catalog search, all-in quotes by state, draw sites by ZIP, reviewed ranges.",
+  "title": "TestWell Lab Tests",
+  "version": "1.2.0",
+  "websiteUrl": "https://www.test-well.com/developers",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.test-well.com/mcp"
+    }
+  ]
+}
